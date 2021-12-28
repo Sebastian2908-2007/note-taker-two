@@ -1,6 +1,13 @@
-[
+{
+  "notes": [
     {
-        "title":"Test Title",
-        "text":"Test text"
+      "title": "Test Title",
+      "text": "Test text"
+    },
+    {
+      "title": "Kid Broke christmas gift",
+      "text": "Why do kids break nice things ",
+      "id": "4jc4wfaokkxpg6bds"
     }
-]
+  ]
+}

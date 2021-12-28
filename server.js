@@ -6,7 +6,7 @@ const apiRoutes = require('./routes/apiRoutes');
 app.use(express.urlencoded({extended:true}));
 app.use(express.json());
 app.use(express.static('assets'));
-//app.use('/api', apiRoutes);
+app.use('/api', apiRoutes);
 app.use('/', htmlRoutes);
 
 app.listen(PORT, () => {

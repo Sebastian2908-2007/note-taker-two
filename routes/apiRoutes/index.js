@@ -21,7 +21,9 @@ router.delete('/notes/:id', (req, res) => {
        return res.sendStatus(404)
     }
     
-    deleteNote(noteToDelete,notes);
+    const newNotes = deleteNote(noteToDelete,notes);
+    res.json(newNotes);
+   
 
 });
 

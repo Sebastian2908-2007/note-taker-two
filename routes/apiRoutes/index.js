@@ -23,6 +23,7 @@ router.delete('/notes/:id', (req, res) => {
     
     const newNotes = deleteNote(noteToDelete,notes);
     res.json(newNotes);
+    
    
 
 });
